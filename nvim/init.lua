@@ -1,0 +1,16 @@
+require "danny.options"
+require "danny.keymaps"
+require "danny.plugins"
+require "danny.colorscheme"
+require "danny.cmp"
+require "danny.lsp"
+require "danny.telescope"
+require "danny.treesitter"
+require "danny.autopairs"
+require "danny.comment"
+require "danny.gitsigns"
+require "danny.nvimtree"
+require "danny.bufferline"
+require "danny.toggleterm"
+
+require "nvim-tree".setup()
